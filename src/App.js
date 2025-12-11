@@ -313,7 +313,7 @@ function LoginPage() {
 
         {isLogin && (
           <div className="mt-6 pt-6 border-t">
-            <p className="text-sm text-gray-600 mb-3 text-center">Demo Accounts:</p>
+            <p className="text-sm text-gray-600 mb-3 text-center"> </p>
             <div className="space-y-2">
             {/*  
 		<button onClick={() => quickLogin('admin')} className="w-full bg-blue-100 text-blue-700 py-2 rounded-lg text-sm hover:bg-blue-200">
