@@ -199,7 +199,7 @@ function LoginPage() {
     setLoading(false);
   };
 
-  const quickLogin = (role) => {
+/*  const quickLogin = (role) => {
     const users = {
       admin: { email: 'admin@vrksatechnology.com', password: 'admin123' },
       delivery: { email: 'delivery@vrksatechnology.com', password: 'delivery123' },
@@ -207,7 +207,7 @@ function LoginPage() {
     };
     setFormData({...formData, ...users[role]});
   };
-
+*/
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-400 to-blue-500 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-8">
@@ -315,7 +315,8 @@ function LoginPage() {
           <div className="mt-6 pt-6 border-t">
             <p className="text-sm text-gray-600 mb-3 text-center">Demo Accounts:</p>
             <div className="space-y-2">
-              <button onClick={() => quickLogin('admin')} className="w-full bg-blue-100 text-blue-700 py-2 rounded-lg text-sm hover:bg-blue-200">
+            {/*  
+		<button onClick={() => quickLogin('admin')} className="w-full bg-blue-100 text-blue-700 py-2 rounded-lg text-sm hover:bg-blue-200">
                 Admin Demo
               </button>
               <button onClick={() => quickLogin('delivery')} className="w-full bg-purple-100 text-purple-700 py-2 rounded-lg text-sm hover:bg-purple-200">
@@ -323,7 +324,8 @@ function LoginPage() {
               </button>
               <button onClick={() => quickLogin('customer')} className="w-full bg-gray-100 text-gray-700 py-2 rounded-lg text-sm hover:bg-gray-200">
                 Customer Demo
-              </button>
+              </button> 
+            */}
             </div>
           </div>
         )}
