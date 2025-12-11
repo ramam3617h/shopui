@@ -938,7 +938,7 @@ function CustomerStore() {
 
         // Initialize Razorpay 'rzp_test_ResNqIiATpcEFJ'  Replace with your Razorpay key
         const options = {
-          key:'rzp_test_ResNqIiATpcEFJ',
+          key:'rzp_live_Rjv4rIbcryHGQs',
           amount: razorpayOrder.order.amount,
           currency: razorpayOrder.order.currency,
           name: 'VrksaTechnologyMart',
