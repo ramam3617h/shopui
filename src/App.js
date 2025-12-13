@@ -201,9 +201,9 @@ function LoginPage() {
 
 /*  const quickLogin = (role) => {
     const users = {
-      admin: { email: 'admin@vrksatechnology.com', password: 'admin123' },
-      delivery: { email: 'delivery@vrksatechnology.com', password: 'delivery123' },
-      customer: { email: 'customer@vrksatechnology.com', password: 'customer123' }
+      admin: { email: ' ', password: ' ' },
+      delivery: { email: ' ', password: ' ' },
+      customer: { email: ' ', password: ' ' }
     };
     setFormData({...formData, ...users[role]});
   };
