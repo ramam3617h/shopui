@@ -1036,7 +1036,7 @@ function CustomerStore() {
               <span className="text-3xl">🛒</span>
               <div>
                 <h1 className="text-2xl font-bold text-gray-600">VrksaTechnologyMart</h1>
-                <p className="text-sm text-gray-600">Fresh & Quality Products</p>
+                <p className="text-sm text-gray-600">Initiating the custom  online application process & Quality Products</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
