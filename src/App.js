@@ -943,7 +943,7 @@ function CustomerStore() {
           key:'rzp_live_Rjv4rIbcryHGQs',
           amount: razorpayOrder.order.amount,
           currency: razorpayOrder.order.currency,
-          name: 'VrksaTechnologyMart',
+          name: 'VrksaTechnologyLLP',
           description: 'Order Payment',
           order_id: razorpayOrder.order.id,
           handler: async function (response) {
@@ -1035,7 +1035,7 @@ function CustomerStore() {
             <div className="flex items-center gap-3">
               <span className="text-3xl">🛒</span>
               <div>
-                <h1 className="text-2xl font-bold text-gray-600">VrksaTechnologyMart</h1>
+                <h1 className="text-2xl font-bold text-gray-600">VrksaTechnology</h1>
                 <p className="text-sm text-gray-600">Initiating the custom  online application process & Quality Products</p>
               </div>
             </div>
@@ -1297,7 +1297,7 @@ function CheckoutModal({ cartTotal, currentUser, onClose, onConfirm }) {
                 />
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
-                    <DollarSign size={20} className="text-blue-600" />
+                    <IndianRupee size={20} className="text-blue-600" />
                     <span className="font-semibold">Razorpay</span>
                   </div>
                   <p className="text-sm text-gray-600">Pay securely with Credit/Debit Card, UPI, NetBanking, Wallets</p>
@@ -1378,7 +1378,7 @@ function CheckoutModal({ cartTotal, currentUser, onClose, onConfirm }) {
           >
             {paymentMethod === 'razorpay' ? (
               <>
-                <DollarSign size={20} />
+                <IndianRupee size={20} />
                 Pay ₹{finalTotal} Securely
               </>
             ) : (
