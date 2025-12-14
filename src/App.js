@@ -213,8 +213,8 @@ function LoginPage() {
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-8">
         <div className="text-center mb-8">
           <div className="text-5xl mb-4">🛒</div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">VrksaTechnologyMart</h1>
-          <p className="text-gray-600">Buying Customised online business application</p>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Custom Application Development and Operations Initiate</h1>
+          <p className="text-gray-600">Buying to initiate custom software development or migrating from a legacy system. </p>
         </div>
 
         <div className="flex mb-6 bg-gray-100 rounded-lg p-1">
@@ -329,6 +329,23 @@ function LoginPage() {
             </div>
           </div>
         )}
+        <div className="mt-3 text-center">
+          <p className="text-gray-600">
+            Terms and condition and Policy 
+     <a href="https://www.vrksatechnology.com" target="_blank" rel="noopener noreferrer"> vrksatechnology.com </a>
+          {/* 
+	   <button
+              onClick={onSwitchToPolicyPages}       
+              className="text-orange-600 font-semibold hover:underline"
+            >
+              PolicyPage
+            </button>
+		*/}
+          </p>
+        </div>
+           <div className="border-t border-gray-800 mt-2 pt-1 text-center text-sm">
+            <p>&copy; 2025 VRKSA TECHNOLOGY LLP . All rights reserved.</p>
+          </div>
       </div>
     </div>
   );
